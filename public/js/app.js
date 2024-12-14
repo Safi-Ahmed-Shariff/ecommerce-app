@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const productList = document.getElementById("product-list");
 
-    fetch("http://127.0.0.1:3000/api/products")
+    fetch("http://localhost:3001/api/products")
         .then((response) => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
