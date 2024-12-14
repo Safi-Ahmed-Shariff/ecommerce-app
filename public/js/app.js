@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         (product) =>
                             `<div>
                                 <h2>${product.name}</h2>
-                                <p>Price: $${product.price}</p>
+                                <p>Price:${product.price} Rs</p>
                             </div>`
                     )
                     .join("");
