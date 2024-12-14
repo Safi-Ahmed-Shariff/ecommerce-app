@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "description": "An e-commerce application with frontend and backend microservices",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "Safi Ahmed Shariff",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
